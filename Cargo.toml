@@ -1,0 +1,15 @@
+[package]
+name = "electric_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy="0.7.0"
+rand="0.8.5"
+hex2d="1.1.0"
+bevy_prototype_lyon = "0.5.0"
+
+[workspace]
+resolver = "2" # Important! wgpu/Bevy needs this!
